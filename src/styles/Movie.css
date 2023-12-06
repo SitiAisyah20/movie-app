@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #bdd5e1;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+}
+
+.card:hover {
+  border: 1px solid #0c93d3;
+  outline-style: solid;
+  outline-color: #0c93d3;
+}
+
+.card:focus {
+  outline: none !important;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #bdd5e1;
+}
